@@ -1,0 +1,81 @@
+site_name: Sistema Finanzas - Perfil de Egreso
+site_description: Proyecto de Gestión Integral de Tecnologías de Información - Sistema de Gestión Financiera y Administrativa para Clínica Médica
+site_author: Condori Pachauri Omar, Flores Llanque Mery Elizabeth, Huahuaccapa Ccama Jaqueline
+site_url: https://omar-condori.github.io/EPEproyecto/
+
+repo_url: https://github.com/Omar-Condori/EPEproyecto
+repo_name: Omar-Condori/EPEproyecto
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+    - header.autohide
+    - announce.dismiss
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Omar-Condori/EPEproyecto
+  generator: false
+
+copyright: Copyright &copy; 2026 Universidad Peruana Unión - Escuela Profesional de Ingeniería de Sistemas
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - footnotes
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Inicio: index.md
+  - Gestión de Tecnologías de Información:
+    - Visión General: ce01-gestion-ti/index.md
+    - Diagnóstico Organizacional: ce01-gestion-ti/entregable-1.md
+    - Business Case: ce01-gestion-ti/entregable-2.md
+    - Plan de Gestión (PMBOK/Agile): ce01-gestion-ti/entregable-3.md
+    - Modelado de Procesos AS-IS/TO-BE: ce01-gestion-ti/entregable-4.md
+  - Ingeniería de Software:
+    - Visión General: ce02-ingenieria-software/index.md
+    - Requerimientos y Diseño del Sistema: ce02-ingenieria-software/entregable-1.md
+    - Plataforma de Datos del Sistema: ce02-ingenieria-software/entregable-2.md
+  - Infraestructura Tecnológica:
+    - Visión General: ce03-infraestructura/index.md
+    - Diseño de Red: ce03-infraestructura/entregable-1.md
+    - Planificación de Seguridad: ce03-infraestructura/entregable-2.md
+    - Diseño de Centro de Datos: ce03-infraestructura/entregable-3.md
