@@ -2,3 +2,5 @@
 site/
 *.pyc
 __pycache__/
+extract_content.py
+extracted_content/
